@@ -60,3 +60,15 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Local machine files and build output
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+
+# Local credentials (never commit API keys)
+/Haru/Services/Secrets.swift
+/Haru/Services/Secrets.local.swift
+.env
+.env.*
